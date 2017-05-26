@@ -1,0 +1,197 @@
+body{
+  color: black;
+}
+#first{
+  height: 100vh;
+  background-color:#686E75;
+}
+a,a:visited,a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+#first #fun{
+  display:none;
+  margin-top: 20vh;
+  font-family: 'Volkhov', serif;
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  width: 20vw;
+  background: rgba(0,0,0,  0.5);
+  margin-left: 20vw;
+  box-shadow: 4px 4px 10px black;
+}
+#first #passion{display:none;
+  font-family: 'Volkhov', serif;
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  width: 20vw;
+  background: rgba(0,0,0,  0.5);
+  margin-left: 40vw;
+  box-shadow: 4px 4px 10px black;
+}
+#first #dance{display:none;
+  font-family: 'Volkhov', serif;
+  color: gray;
+  text-align: center;
+  font-size: 3vw;
+  width: 20vw;
+  background: rgba(0,0,0,  0.5);
+  margin-left: 60vw;
+  box-shadow: 4px 4px 10px black;
+}
+
+article img{
+max-height: 70vh;
+filter: grayscale(100%);
+margin: 0;
+    box-shadow: 5px 5px 5px black;
+}
+article span{
+    padding: 20px;
+    display:block;
+    background-color: white;
+    font-size: auto;
+    width: 50vw
+}
+article h1{
+  background-color: white;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  padding: 2vh;
+}
+.menu{
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  z-index: 10;
+  min-width: 30px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pick{
+  height: 25vh;
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.pick:hover{
+  color:white;
+  width: 110%;
+  background-color:#8104C7;
+  transition: 0.3s;
+  box-shadow: 0px -2px 10px black;
+ 
+}
+.pick:hover{
+  color:white;
+  width: 110%;
+  background-color:#8104C7;
+  transition: 0.3s;
+  box-shadow: 0px -2px 10px black;
+ 
+}
+.pickhover{
+  color:white;
+  width: 110%;
+  background-color:#8104C7;
+  transition: 0.3s;
+  box-shadow: 0px -2px 10px black;
+ 
+}
+.container{
+  margin:0;
+  padding: 0;
+display:flex;
+
+}
+.flexcontainer{
+  margin:0;
+  padding: 0;
+display:flex;
+justify-content: center;
+
+
+}
+.col1{
+    display: flex;
+    flex: 1 auto;
+    height:90vh;
+    align-items: center;
+    margin: 5px;
+}
+
+.row{
+  margin:0;
+  padding: 0;
+}
+i{
+  margin-left: auto;
+  margin-right: auto;
+}
+#instruktor,#osiagniecia,#oferta,#galeria{
+  min-height: 100vh;
+  width: 100vw;
+}
+#instruktor h1,#oferta h1,#galeria h1,#osiagniecia h1{
+  padding-top: 20px;
+}
+#instruktor{
+    background-color: #9BAAC1;
+}
+#oferta{
+    background-color: #82787B;
+}
+#galeria{
+  background-color: #E4F1DB
+}
+#osiagniecia{
+  background-color: #AAC19B;
+}
+@media only screen and (max-width: 768px) {
+    #intext{
+        width:85vw;
+        font-size: 0.75em;
+        padding: auto;
+        margin-left: 10vw;
+        margin-right: 5vw
+    }
+    #inimg{
+        margin:auto;
+        margin-top: 0;
+    }
+    #first #fun{
+        margin-left:auto;
+        margin-right: auto;
+        width:70vw;
+        font-size:12vw;
+    }
+     #first #passion{
+        margin-left:auto;
+        margin-right: auto;
+        width:70vw;
+        font-size:12vw;
+    }
+     #first #dance{
+        margin-left:auto;
+        margin-right: auto;
+        width:70vw;
+        font-size:12vw;
+    }
+}
