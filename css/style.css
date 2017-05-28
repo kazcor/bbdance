@@ -42,20 +42,21 @@ a,a:visited,a:hover{
   margin-left: 60vw;
   box-shadow: 4px 4px 10px black;
 }
-
-article img{
-max-height: 70vh;
-filter: grayscale(100%);
-margin: 0;
-    box-shadow: 5px 5px 5px black;
-}
-article span{
+#intext{
+    margin-top: 5vh;
+    width: 50vw;
+    margin-left: 10vw;
+    min-height: 75vh;
+    background-color:white;
     padding: 20px;
-    display:block;
-    background-color: white;
-    font-size: auto;
-    width: 50vw
+    box-shadow: 2px 5px 5px black;
 }
+#inimg{
+     margin-top: 5vh;
+    height: 75vh;
+    box-shadow: 2px 5px 10px black;
+}
+
 article h1{
   background-color: white;
   width: 100vw;
@@ -132,7 +133,6 @@ justify-content: center;
 .col1{
     display: flex;
     flex: 1 auto;
-    height:90vh;
     align-items: center;
     margin: 5px;
 }
@@ -166,15 +166,16 @@ i{
 }
 @media only screen and (max-width: 768px) {
     #intext{
-        width:85vw;
-        font-size: 0.75em;
+        width: 80vw;
+        font-size: 0.8em;
         padding: auto;
         margin-left: 10vw;
-        margin-right: 5vw
+        margin-right: 5vw;
+        margin-top: 4vw;
     }
     #inimg{
         margin:auto;
-        margin-top: 0;
+        margin-top: 10px;
     }
     #first #fun{
         margin-left:auto;

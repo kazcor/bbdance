@@ -27,8 +27,10 @@ $(window).scroll(function() {
       
       
   });
+    if($(window).width()>768){
+       alert($(window).width());
     $("#intext").css("height",$("#inimg").css("height"));
-    
+    }
     
  $("#fun").fadeIn(700,function(){
    $("#passion").fadeIn(700,function(){
