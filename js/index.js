@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    var h=$(window).height();
+    var h=$("#first").height();
     var h1=h+$("#instruktor").height();
     var h12=h1+$("#oferta").height();
     var h123=h12+$("#galeria").height();
     var h1234=h123+$("#osiagniecia").height();
-    
+    var h12345=h1234+$("#kontakt").height();
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > h&$(this).scrollTop()<h1) {
@@ -30,7 +30,12 @@ $(window).scroll(function() {
     }
     else{$(".osiagniecia").removeClass("pickhover");}
       
+     if ($(this).scrollTop() > h1234&$(this).scrollTop()<h12345) {
+       $(".kontakt").addClass("pickhover");
       
+    }
+    else{$(".kontakt").removeClass("pickhover");}
+       
       
   });
     

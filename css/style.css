@@ -1,5 +1,7 @@
 body{
   color: black;
+    padding: 0;
+    margin: 0;
 }
 #first{
   height: 100vh;
@@ -83,7 +85,7 @@ ul{
 }
 
 .pick{
-  height: 25vh;
+  height: 20vh;
   font-size: 2.5vw;
   display: flex;
   align-items: center;
@@ -101,15 +103,7 @@ ul{
   box-shadow: 0px -2px 10px black;
  
 }
-.pick:hover{
-  color:white;
-  width: 110%;
-  background-color:#8104C7;
-  transition: 0.3s;
-  box-shadow: 0px -2px 10px black;
- 
-}
-.pickhover{
+.pick:hover,.pickhover{
   color:white;
   width: 110%;
   background-color:#8104C7;
@@ -145,7 +139,7 @@ i{
   margin-left: auto;
   margin-right: auto;
 }
-#instruktor,#osiagniecia,#oferta,#galeria{
+#instruktor,#osiagniecia,#oferta,#galeria,#kontakt{
   min-height: 100vh;
   width: 100vw;
 }
@@ -164,7 +158,9 @@ i{
 #osiagniecia{
   background-color: #AAC19B;
 }
-
+#kontakt{
+    background-color: #4C4773;
+}
 .off{
     background-color:white;
     max-width: 28vw;
@@ -175,12 +171,13 @@ i{
     display: flex;
     align-content:center;
     margin: 30px 5px 30px 5px;
+    flex-wrap: wrap;
 }
 .off i{
     font-size: 2em;
 }
 .off span{
-    margin: 2.5em 0 0 0;
+margin:5px;
 }
 h3{
     text-align: center;
