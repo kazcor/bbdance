@@ -161,6 +161,32 @@ i{
 #kontakt{
     background-color: #4C4773;
 }
+#slider{
+    display:flex;
+    justify-content: center;
+}
+.mySlides{
+    position: relative;
+    height: 90vh;
+     transition: 1s;
+}
+#btns{
+    position: absolute;
+    width: 60vw;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+   justify-content: space-between;
+}
+.btn-default{
+     opacity: 0.7;
+    border-style:solid;
+    border-color:black;
+    
+}
+
+
+
 .off{
     background-color:white;
     max-width: 28vw;
