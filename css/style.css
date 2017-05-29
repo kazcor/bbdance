@@ -187,8 +187,9 @@ h3{
       flex-direction: column;  
         align-items: center;
     }
-    .off{max-width: 80vw;
-    width: 80vw;}
+    .off{max-width: 85vw;
+        margin-left: 6vw;
+    width: 84vw;}
     #intext{
         width: 80vw;
         font-size: 0.8em;
