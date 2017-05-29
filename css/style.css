@@ -178,11 +178,13 @@ i{
     align-items: center;
    justify-content: space-between;
 }
-.btn-default{
-     opacity: 0.7;
-    border-style:solid;
-    border-color:black;
-    
+#btns .fa{
+    font-size: 2.5em;
+    margin:0;  
+}
+#btns .fa:hover{
+    opacity:0.3; 
+    transition: 0.3s;
 }
 
 
