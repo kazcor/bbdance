@@ -171,7 +171,7 @@ i{
 .mySlides{
     position: relative;
     height: 90vh;
-     transition: 1s;
+    transition: 1s;
     max-width: 80vw;
 }
 #btns{
