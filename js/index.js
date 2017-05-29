@@ -1,24 +1,30 @@
 $(document).ready(function(){
+    var h=$(window).height();
+    var h1=h+$("#instruktor").height();
+    var h12=h1+$("#oferta").height();
+    var h123=h12+$("#galeria").height();
+    var h1234=h123+$("#osiagniecia").height();
+    
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > $(window).height()&$(this).scrollTop()<2*$(window).height()) {
+    if ($(this).scrollTop() > h&$(this).scrollTop()<h1) {
        $(".instruktor").addClass("pickhover");
       
     }
     else{$(".instruktor").removeClass("pickhover");}
     
-        if ($(this).scrollTop() > 2*$(window).height()&$(this).scrollTop()<3*$(window).height()) {
+        if ($(this).scrollTop() > h1&$(this).scrollTop()<h12) {
        $(".oferta").addClass("pickhover");
       
     }
     else{$(".oferta").removeClass("pickhover");}
     
-         if ($(this).scrollTop() > 3*$(window).height()&$(this).scrollTop()<4*$(window).height()) {
+         if ($(this).scrollTop() > h12&$(this).scrollTop()<h123) {
        $(".galeria").addClass("pickhover");
       
     }
     else{$(".galeria").removeClass("pickhover");}
-      if ($(this).scrollTop() > 4*$(window).height()&$(this).scrollTop()<5*$(window).height()) {
+      if ($(this).scrollTop() > h123&$(this).scrollTop()<h1234) {
        $(".osiagniecia").addClass("pickhover");
       
     }
@@ -27,10 +33,7 @@ $(window).scroll(function() {
       
       
   });
-    if($(window).width()>768){
-       alert($(window).width());
-    $("#intext").css("height",$("#inimg").css("height"));
-    }
+    
     
  $("#fun").fadeIn(700,function(){
    $("#passion").fadeIn(700,function(){
@@ -38,7 +41,8 @@ $(window).scroll(function() {
    });
  });
     
-    
+    console.log($(window).height());
+    console.log($("#instruktor").height());
     
     
     
