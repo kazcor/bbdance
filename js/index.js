@@ -11,13 +11,13 @@ $(document).ready(function(){
 $(window).scroll(function() {
     
     if ($(this).scrollTop() <h) {
-       $("#background1").css("background-image","url(\"http://danceartfusion.com/images/header-background.jpg\")");
+       $("#background1").css("background-image","url(\"/tło.jpg\")");
     }
     if ($(this).scrollTop() > h&$(this).scrollTop()<h1) {
 
        $(".instruktor").addClass("pickhover");
         $("#intext, #inimg").addClass("fadeIn");
-       $("#background1").css("background-image","url(\"https://s-media-cache-ak0.pinimg.com/originals/4a/17/0a/4a170a5fa69506c45f9707996b733825.jpg\")");
+       $("#background1").css("background-image","url(\"/tło1.jpg\")");
     }
     else{$(".instruktor").removeClass("pickhover");}
     

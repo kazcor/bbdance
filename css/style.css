@@ -27,7 +27,8 @@ body{
     position: fixed;
     width:100vw;
     height: 100vh;
-     background-image: url("http://danceartfusion.com/images/header-background.jpg");
+     background-image: url("/tło.jpg");
+    background-size:cover;
     z-index: -2;
 }
 #backgroundImg1{
