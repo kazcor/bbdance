@@ -5,15 +5,24 @@ $(document).ready(function(){
     var h123=h12+$("#galeria").height();
     var h1234=h123+$("#osiagniecia").height();
     var h12345=h1234+$("#kontakt").height();
+    $(".menu li").removeClass("pickhover");
+    $("article div").removeClass("fadeIn");
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > h&$(this).scrollTop()<h1) {
-       $(".instruktor").addClass("pickhover");
-      
+    
+    if ($(this).scrollTop() <h) {
+       $("#background1").css("background-image","url(\"http://danceartfusion.com/images/header-background.jpg\")");
     }
-    else{$(".instruktor").removeClass("pickhover");}
+    if ($(this).scrollTop() > h&$(this).scrollTop()<h1) {
+
+       $(".instruktor").addClass("pickhover");
+        $("#intext, #inimg").addClass("fadeIn");
+       $("#background1").css("background-image","url(\"https://s-media-cache-ak0.pinimg.com/originals/4a/17/0a/4a170a5fa69506c45f9707996b733825.jpg\")");
+    }
+
     
         if ($(this).scrollTop() > h1&$(this).scrollTop()<h12) {
+        $(".off").addClass("fadeIn");
        $(".oferta").addClass("pickhover");
       
     }
@@ -72,12 +81,10 @@ function showDivs(n) {
     
  $("#fun").fadeIn(700,function(){
    $("#passion").fadeIn(700,function(){
-     $("#dance").fadeIn(1000);
+     $("#dance").fadeIn(900);
    });
  });
     
-    console.log($(window).height());
-    console.log($("#instruktor").height());
     
     
     
@@ -91,7 +98,7 @@ $(function() {
     $('.menu a,#menu a,h2 a').click(function (e) {
         e.preventDefault();
         
-        simpleScrollTo($(this).attr('href'), 700);
+        simpleScrollTo($(this).attr('href'), 1000);
     });
 }); 
 });
