@@ -19,7 +19,7 @@ $(window).scroll(function() {
         $("#intext, #inimg").addClass("fadeIn");
        $("#background1").css("background-image","url(\"https://s-media-cache-ak0.pinimg.com/originals/4a/17/0a/4a170a5fa69506c45f9707996b733825.jpg\")");
     }
-
+    else{$(".instruktor").removeClass("pickhover");}
     
         if ($(this).scrollTop() > h1&$(this).scrollTop()<h12) {
         $(".off").addClass("fadeIn");
